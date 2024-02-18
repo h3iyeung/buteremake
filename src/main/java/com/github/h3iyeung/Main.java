@@ -41,7 +41,7 @@ public class Main {
 
     public static void main(String[] args) {
         DiscordApi api = new DiscordApiBuilder()
-                .setToken("test")
+                .setToken("token")
                 .addIntents(Intent.GUILD_MEMBERS)
                 .login()
                 .join();
