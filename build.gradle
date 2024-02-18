@@ -1,12 +1,18 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
-group = 'org.example'
-version = '1.0-SNAPSHOT'
+group = 'com.github.h3iyeung'
+version = '1.0.2'
 
 repositories {
     mavenCentral()
+}
+
+application {
+    mainClass = 'com.github.h3iyeung.Main'
+    // mainClassName = 'com.github.yourname.BotMain' // for Gradle versions < 6.4
 }
 
 dependencies {
